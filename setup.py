@@ -6,7 +6,7 @@ setup(
     packages=find_packages(),
     install_requires=[
         # Add dependencies from the PASD repository requirements.txt file
-        'diffusers=0.21.4',
+        'diffusers==0.21.4',
         'accelerate',
         'transformers',
         'xformers',
